@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Montserrat:ital,wght@1,600&family=Mooli&family=Ubuntu:ital,wght@1,500&display=swap');@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&family=Fira+Code&family=Fuggles&family=Montserrat:wght@200&family=Mooli&family=Ubuntu:ital,wght@1,500&display=swap');
+body {
+    margin: 0;
+    background-image: linear-gradient(120deg, black, rgb(6, 6, 58),rgb(15, 15, 118));
+    color: white;
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.navbar li{
+    float: right;
+    padding: 10px;
+    margin-right: 40px;
+    font-size: 20px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar li:hover{
+    font-size: 21px;
+}
+.myimage{
+    height:500px;   
+    border-radius: 400px;
+}
+
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+}
+.home-left {
+    width: 50vw;
+    color:rgb(59, 211, 59);
+    text-align: left;
+    padding-left: 200px;
+    font-size: medium;
+}
+.home-right {
+    width: 50vw;
+    padding-left: 100px;
+}
+.home-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.home-p {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+}
+.container{
+    border: 2px solid rgb(59, 211, 59);
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px 5px rgba(255, 255, 255, 0.2);
+    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 20%  0 20%;
+    margin-top: 30px;
+    padding:70px 30px 70px 30px;
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
+
+.resume{
+    color:blue;
+    text-decoration: none;
+}
+
+.projects{
+    text-align: center;
+}
+
+.pro-h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(59, 211, 59);
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.pro-sub-cont {
+    display: flex;
+    flex-direction: row;
+}
+.pro-card {
+    border: 2px rgb(47, 168, 47) solid;
+    background-color: rgb(14, 15, 73);
+    box-shadow: 3px 5px 20px 3px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    margin:10px 200px 10px 200px;
+    width: 400px;
+}
+.pro-card:hover{
+    width:410px;
+}
+.pro-p {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+table{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+table h3{
+    font-family: 'Encode Sans', sans-serif;
+    color:rgb(59, 211, 59);
+    font-size: 30px;
+}
+th{
+    padding:10px;
+    font-size: 25px;
+}
+.contact {
+    text-align: center;
+}
+.contact-info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+.test-logo {
+    height: 50px;
+}
+.social-icon-img {
+    height: 50px;
+    padding: 20px;
+}
